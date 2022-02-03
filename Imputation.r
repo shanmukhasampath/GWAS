@@ -1,4 +1,8 @@
 ############################################################# Imputation #############################################
+##################### IMPORTANT INFORMATION ################
+Steps from 1 to 5 need to be run separately and only after the initial step is finished its job in the server.
+Step 2 cannot be run before Step 1 is finished. Same rule applies till Step 5. 
+############################################################
 # Change the directories
 
 plinkdir <- '~/Software/plink-1.9/plink' # Plink Directory
